@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+*
+{
+margin :0;
+padding:0;
+box-sizing: border-box;
+font-family: "Poppins", sans-serif;	
+}
+body{
+	background: #dfe9f5;
+}
+#nav-bar
+{
+	position: sticky;
+	top: 0;
+	z-index: 10;
+}
+.navbar
+{
+	background-color: #bababf;
+	padding: 0;
+}
+.navbar-nav li
+{
+	padding: 0 12px;
+}
+.navbar-nav li a 
+{
+	
+	float: right;
+	text-align: left;
+}
+.navbar-toggler-icon
+{
+  font-size: 20px;
+
+}
+.navbar-toggler
+{
+  outline: none !important;
+  border: none;
+}
+
+.container-fluid 
+{
+	float: right;
+	text-align: center;
+	padding: 10;
+
+}
+.col-sm-3{
+  flex-shrink: 0;
+  flex-wrap: wrap;
+}
+
+.list-group h3 {
+  border: 2px solid ;
+  border-radius: 30px 30px 30px 30px;
+  border-bottom: none;
+  margin-bottom: 0;
+}
+
+.list-group-item:hover {
+  font-weight: bold;
+  
+}
+.list-group-item:nth-child(odd) {
+  border: 2px solid ;
+  border-radius: 30px 30px 30px 30px;
+  border-bottom: none;
+  background-color: white;
+}
+
+.list-group-item:nth-child(even) {
+  border: 2px solid;
+  border-radius: 30px 30px 30px 30px;
+  border-bottom: none;
+  background-color: #E8E2E2;
+}
+
+
+
+
+.col-md-4
+{
+	margin: 10 10 10 10;
+}
+.font-weight-bold
+{
+	margin-top: 20;
+}
+
+.card-footer,
+.card-header
+{
+	text-align: center;
+}
+.carousel-control-prev,
+.carousel-control-next {
+  opacity: 0;
+}
+
+.carousel-control-prev:hover,
+.carousel-control-next:hover {
+  opacity: 0.5;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  background: none;
+  border: none;
+  font-size: 0;
+}
+
+.carousel-control-prev:hover,
+.carousel-control-next:hover {
+  background: none;
+  border: none;
+  font-size: 0;
+}
+.font-weight-bold
+{
+	
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.nav-link active
+{
+	background-color: black;
+}
+.carouselExampleFade
+{
+	border-width:20px ;
+}
+.navbar-brand
+{
+	margin-left: 80px;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+.carousel img
+ {
+  max-width: 100%;
+  height: auto;
+}
+.product-disc
+{
+	text-align: left;
+	
+}
+.wrapper{
+  width: 800px;
+  padding: 2rem 0 1rem 0;
+  margin: 50px auto;
+  background: #fff;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
+}
+form input,
+form select,
+form div 
+{
+  width: 100%;
+  outline: none;
+  border: none;
+  background: #dfe9f5;
+  padding: 12px 14px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+.navbar-toggler-icon
+{
+  font-size: 20px;
+
+}
+.navbar-toggler
+{
+  outline: none !important;
+  border: none;
+}
+button{
+
+  cursor: pointer;
+}
+button:hover{
+  background: #007bff;
+}

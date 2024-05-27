@@ -1,0 +1,279 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+*
+{
+margin :0;
+padding:0;
+box-sizing: border-box;
+font-family: "Poppins", sans-serif;	
+}
+body{
+	background: #dfe9f5;
+}
+
+#nav-bar
+{
+	position: sticky;
+	top: 0;
+	z-index: 10;
+}
+.navbar
+{
+	background-color: #bababf;
+	padding: 0;
+}
+.navbar-nav li
+{
+	padding: 0 12px;
+}
+.navbar-nav li a 
+{
+	
+	float: right;
+	text-align: left;
+}
+.navbar-toggler-icon
+{
+  font-size: 20px;
+
+}
+.navbar-toggler
+{
+  outline: none !important;
+  border: none;
+}
+
+.container-fluid 
+{
+	float: right;
+	text-align: center;
+	padding: 10;
+
+}
+.col-sm-3{
+  flex-shrink: 0;
+  flex-wrap: wrap;
+}
+
+.list-group h3 {
+  border: 2px solid ;
+  border-radius: 30px 30px 30px 30px;
+  border-bottom: none;
+  margin-bottom: 0;
+}
+
+.list-group-item:hover {
+  font-weight: bold;
+  
+}
+.list-group-item:nth-child(odd) {
+  border: 2px solid ;
+  border-radius: 30px 30px 30px 30px;
+  border-bottom: none;
+  background-color: white;
+}
+
+.list-group-item:nth-child(even) {
+  border: 2px solid;
+  border-radius: 30px 30px 30px 30px;
+  border-bottom: none;
+  background-color: #E8E2E2;
+}
+
+
+
+
+.col-md-4
+{
+	margin: 10 10 10 10;
+}
+.font-weight-bold
+{
+	margin-top: 20;
+}
+
+.card-footer,
+.card-header
+{
+	text-align: center;
+}
+.carousel-control-prev,
+.carousel-control-next {
+  opacity: 0;
+}
+
+.carousel-control-prev:hover,
+.carousel-control-next:hover {
+  opacity: 0.5;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  background: none;
+  border: none;
+  font-size: 0;
+}
+
+.carousel-control-prev:hover,
+.carousel-control-next:hover {
+  background: none;
+  border: none;
+  font-size: 0;
+}
+.font-weight-bold
+{
+	
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.nav-link active
+{
+	background-color: black;
+}
+.carouselExampleFade
+{
+	border-width:20px ;
+}
+.navbar-brand
+{
+	margin-left: 80px;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+.carousel img
+ {
+  max-width: 100%;
+  height: auto;
+}
+.product-disc
+{
+	text-align: left;
+	
+}
+.wrapper{
+  width: 500px;
+  padding: 2rem 0 1rem 0;
+  margin: 30px auto;
+  background: #fcf1ed;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
+}
+form input,
+form select,
+form div 
+{
+  width: 85%;
+  outline: none;
+  border: none;
+  background: #dfe9f5;
+  padding: 12px 14px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+.navbar-toggler-icon
+{
+  font-size: 20px;
+
+}
+.navbar-toggler
+{
+  outline: none !important;
+  border: none;
+}
+button{
+  font-size: 1.1rem;
+  margin-top: 1rem;
+  padding: 8px 0;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  width: 85%;
+  background: #bababf;
+  color: #fff;
+  cursor: pointer;
+}
+button:hover{
+  background: #007bff;
+}
+
+
+.cart-quantity{
+  background-color: #fb774b;
+  color: #fff;
+  padding: 2px 5px;
+  border-radius: 50%;
+  margin: -5px;
+  font-size: 1rem;
+}
+
+.center{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 400px;
+  background: rgb(226, 227, 228);
+  border-radius: 10px;
+  box-shadow: 10px 10px 15px rgba(0,0,0,0.05);
+}
+.center h1{
+  text-align: center;
+  padding: 20px 0;
+  border-bottom: 1px solid coral;
+}
+.center form{
+  padding: 0 40px;
+  box-sizing: border-box;
+}
+form .txt_field{
+  position: relative;
+  border-bottom: 2px solid coral;
+  margin: 30px 0;
+}
+.txt_field input{
+  width: 100%;
+  padding: 0 5px;
+  height: 40px;
+  font-size: 16px;
+  border: none;
+  background: none;
+  outline: none;
+}
+.txt_field label{
+  position: absolute;
+  top: 50%;
+  left: 5px;
+  color: coral;
+  transform: translateY(-50%);
+  font-size: 16px;
+  pointer-events: none;
+  transition: .5s;
+}
+.txt_field span::before{
+  content: '';
+  position: absolute;
+  top: 40px;
+  left: 0;
+  width: 0%;
+  height: 2px;
+  background: coral;
+  transition: .5s;
+}
+.txt_field input:focus ~ label,
+.txt_field input:valid ~ label{
+  top: -5px;
+  color: coral;
+}
+.txt_field input:focus ~ span::before,
+.txt_field input:valid ~ span::before{
+  width: 100%;
+}
+.pass{
+  margin: -5px 0 20px 5px;
+  color: coral;
+  cursor: pointer;
+}
+.pass:hover{
+  text-decoration: underline;
+}
